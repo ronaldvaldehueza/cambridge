@@ -12,7 +12,7 @@ Table of contents
 Overview
 --------
 
-This React TypeScript Quiz application offers a fun and interactive way for users to test their knowledge through two different quiz formats. Users can select an activity from the home screen and proceed to answer a series of questions. Once completed, a score screen will appear displaying the user's score and a detailed breakdown of correct and incorrect answers. A link back to the home screen allows users to start again or choose a different activity.
+This React TypeScript Quiz application offers a fun and interactive way for users to test their knowledge in two different quiz formats. Users can select an activity from the Home screen and proceed to answer a series of questions. Once completed, a Score screen will appear displaying the user's score and a detailed breakdown of correct and incorrect answers. A link back to the Home screen allows users to start again or choose a different activity.
 
 Features
 --------
@@ -26,18 +26,22 @@ Structure
 
 The project is structured into several key React components coded in TypeScript:
 
-1.  **App.tsx**: This is the entry point of the application, defining the various routes and components.
-2.  **HomeScreen.tsx**: Displays the home screen where users can select an activity.
+1.  **App.tsx**: This is the entry point of the application, fetching a quiz dataset from an external API and defining the various routes and components. The fetched dataset is the only one that will be used in the entire Application. 
+2.  **HomeScreen.tsx**: Displays the home screen where users can select an activity (Activity One or Two, but other disabled Activities demonstrate the Quiz capability to expand its services).
 3.  **QuestionScreen.tsx**: Displays the quiz questions and handles user responses.
-4.  **ScoreScreen.tsx**: Displays the score screen with the user's results and provides a link back to the home screen.
+4.  **ScoreScreen.tsx**: Displays the score screen with the user's list of correct or wrong answers and provides a link back to the home screen.
 
-In addition to these core components, there are several supporting files:
+Note: The original API has been relayed to another host which allows an unrestricted CORS policy.
+
+In addition to these core components there are several supporting files:
 
 *   **CheckAnswers.tsx**: Helps list the correct and incorrect answers of the user at the Score Screen.
 *   **IntroScreen.tsx**: Provides a clear break between activities or rounds.
-*   **Toolbox.tsx**: Provides helper functions to the Application.
-*   **Ambiance.tsx**: Enhances user experience and engagement.
+*   **Toolbox.tsx**: Provides helper functions to the Application that can be added/amended to serve future projects..
+*   **Ambiance.tsx**: a vanity component that enhances user experience and engagement.
 *   **App.css**: Contains the application's custom styles.
+
+Note: During the Quiz there's no option to repeat the previous question or round. However at the end of the Quiz at the Score screen a link to the Home screen is provided to allow retaking of the Quiz.
 
 Setup
 -----
