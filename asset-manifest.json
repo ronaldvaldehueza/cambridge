@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cambridge/static/css/main.ce2cc126.css",
-    "main.js": "/cambridge/static/js/main.145678e4.js",
+    "main.js": "/cambridge/static/js/main.87f6268d.js",
     "static/js/787.ec9300fb.chunk.js": "/cambridge/static/js/787.ec9300fb.chunk.js",
     "index.html": "/cambridge/index.html",
     "main.ce2cc126.css.map": "/cambridge/static/css/main.ce2cc126.css.map",
-    "main.145678e4.js.map": "/cambridge/static/js/main.145678e4.js.map",
+    "main.87f6268d.js.map": "/cambridge/static/js/main.87f6268d.js.map",
     "787.ec9300fb.chunk.js.map": "/cambridge/static/js/787.ec9300fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce2cc126.css",
-    "static/js/main.145678e4.js"
+    "static/js/main.87f6268d.js"
   ]
 }
