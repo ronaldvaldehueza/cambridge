@@ -5,6 +5,7 @@ Table of contents
 -----------------
 
 *   [Overview](#overview)
+*   [Demo](#demo)
 *   [Features](#features)
 *   [Structure](#structure)
 *   [Setup](#setup)
@@ -13,6 +14,11 @@ Overview
 --------
 
 This React TypeScript Quiz application offers a fun and interactive way for users to test their knowledge in two different quiz formats. Users can select an activity from the Home screen and proceed to answer a series of questions. Once completed, a Score screen will appear displaying the user's score and a detailed breakdown of correct and incorrect answers. A link back to the Home screen allows users to start again or choose a different activity.
+
+Demo
+----
+
+To see the app in action, visit [Demo Link](http://nodejs.worldcloud7.com/)
 
 Features
 --------
