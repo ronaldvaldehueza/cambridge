@@ -28,11 +28,116 @@
   color: #61dafb;
 }
 
+button.bare{
+  font-size: 12pt !important; 
+  border-radius: 0 !important; 
+  border: 0 !important;
+}
+
+button.bare:hover{
+  color: white;
+  font-weight: 600;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+button.bare:active, button.bare:active:hover {
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 40px #39FF14;
+}
+
+button:disabled {
+  color:gray!important
+}
+
+.fc-norm {
+  color: rgb(24, 164, 220) !important;
+}
+
+.vcrontheme-shadow {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.vcrontheme-bg {
+  background: rgba(255, 255, 255, 0.65) !important; 
+	backdrop-filter: blur(5px) !important;
+}
+
+h1 {
+  font: 600 46pt Arial !important; 
+}
+
+a { text-decoration: none !important}
+
+body.anim {
+  background: linear-gradient(45deg, #31baf1, rgb(255, 255, 255), #02e096);
+  background-size: 200% 200%;
+  animation: bg-anim-gradient 10s ease infinite;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes kf-bganim-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Experimental */
+
+
+.wave-01 {
+  animation: kf-wave-01 8s linear infinite;
+}
+
+.wave-02 {
+  animation: kf-wave-02 10s linear infinite;
+}
+
+.wave-03 {
+  animation: kf-wave-03 12s linear infinite;
+}
+
+@keyframes kf-wave-01 {
+  0% {
+  transform: translateX(0%);
+  }
+
+  100% {
+  transform: translateX(100%);
+  }
+}
+
+@keyframes kf-wave-02 {
+  0% {
+  transform: scaleY(1.2) translateX(0%);
+  }
+
+  100% {
+  transform: scaleY(1.2) translateX(100%);
+  }
+}
+
+@keyframes kf-wave-03 {
+  0% {
+  transform: scaleY(.8) translateX(0%);
+  }
+
+  100% {
+  transform: scaleY(.8) translateX(100%);
   }
 }
