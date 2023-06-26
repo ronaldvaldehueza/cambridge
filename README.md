@@ -69,6 +69,6 @@ I hope this helps! Let me know if you have any other questions.
 Contact
 --------
 
-ronaldvaldehueza@gmail.commands
+ronaldvaldehueza@gmail.com
 
 Enjoy the quiz and keep learning!
